@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b8af89d14e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css"/>
+    
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	        <li class="crumb"><a href="./nbh.html">neighborhood</a></li>
+	    </ol>
+	</nav>
+    
+    <div class="container">
+        <div class="side-col">
+            <div class="image">
+                <img src="./5.jpeg" alt="me" style="width: 100px; height: 100px; border-radius: 100px;">
+            </div>
+    
+            <div class="bio">
+                <h6>Name : <span>Zaid Jamil</span></h6>
+                <h6>Goal : <span>Full Stack/IOS Dev</span></h6>
+                <h6>Hobby : <span>Make Apps</span></h6>
+            </div>
+
+            <ul class="social-media">
+                <li><i class="fa-brands fa-linkedin fa-xl"></i></li>
+                <li><i class="fa-brands fa-github fa-xl"></i></li>
+                <li><i class="fa-brands fa-facebook fa-xl"></i></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="titles">
+                <h3>Skills</h3>
+                <h3>Frameworks</h3>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>Git</li>
+                    <li>MongoDB</li>
+                    <li>Firebase</li>
+                </ul>
+                
+                <ul>
+                    <li>React</li>
+                    <li>NextJS</li>
+                    <li>React-Native</li>
+                    <li>Vue</li>
+                    <li>tailwindcss</li>
+                    <li>Material UI</li>
+                </ul>
+            </div>
+
+            <h3>Contact Me</h3>
+            <section>
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <br/>
+                    <textarea id="message" rows="4" placeholder="Message"></textarea>
+                    <br/>
+                    <button onclick="clicked()">Send</button>
+                </form>
+                <div class="buttons">
+                    <button id="color" class="color-btn">My Favorite Color</button>
+                    <button id="place" class="place-btn">My Favorite Place</button>
+                    <button id="ritual" class="ritual-btn">My Favorite Ritual</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./profile.js"></script>
+</body>
+</html>
